@@ -45,36 +45,14 @@
 
   </head>
 
-  <body id="scroll-pane" data-spy="scroll" data-target="#time-list-nav">
-    <div class="wrapper">
-      <!-- 导航条 -->
-      <nav class="navbar navbar-default" role="navigation">
-        <div class="row container">
-          <div class="col-md-8 col-md-offset-2">
-            <a class="navbar-brand" href="http://wuhu-ife.github.io/homepage">
-                <span class="site-author"> {{ site.author.name }} </span>
-                <small><span class="site-title"> {{ site.title }} </span></small>
-            </a>
-            <ul class="nav">
-              {% assign pages_list = site.pages %}
-              {% assign group = 'navigation' %}
-              {% include alm/navigation_list %}
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- 正文 -->
-      {{ content }}
-      <!-- 底部声明 -->
-      <div class="row bottom">
-        <small>
-          <div class="col-md-8 text-center col-md-offset-2">
-            &copy; 2015 Hu Wu 
-          </div>
-        </small>
-      </div>
-    </div>
-
+  <body>
+    <header><a>placeholder</a></header>
+    <nav class="menu">
+      <a href="http://wuhu-ife.github.io/homepage/index.html">Home</a>
+      <a href="http://wuhu-ife.github.io/homepage/cv.html">CV</a>
+      <a href="http://wuhu-ife.github.io/homepage/research.html">Research</a>
+      <a href="http://wuhu-ife.github.io/homepage/contact.html">Contact</a>
+    </nav>
   </body>
+
 </html>
