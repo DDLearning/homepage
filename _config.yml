@@ -1,0 +1,17 @@
+baseurl : /homepage
+BASE_PATH : http://wuhu-ife.github.io/homepage
+
+
+pygments: true
+paginate: 10
+
+
+archive_path: /space/posts.html
+categories_path : /space/categories.html
+tags_path : /space/posts.html
+
+title : Homepage for Hu Wu
+author : 
+  name : Hu Wu
+  email : wuhu728@gmail.com
+  github : https://github.com/wuhu-ife
