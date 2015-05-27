@@ -4,7 +4,7 @@
 {% assign color_hack = color_hack | replace:{{current_nav}},'active' %}
 {% assign color_hack = color_hack | split:' ' %}
 
-<li class="{{color_hack[0]}}"><a href="http://almatrix.github.io/space/posts.html">Home</a></li>
-<li class="{{color_hack[1]}}"><a href="http://almatrix.github.io/space/timeline.html">CV</a></li>
-<li class="{{color_hack[2]}}"><a href="http://almatrix.github.io/space/categories.html">Research</a></li>
-<li class="{{color_hack[3]}}"><a href="http://almatrix.github.io/space/about.html">Contact</a></li>
+<li class="{{color_hack[0]}}"><a href="http://wuhu-ife.github.io/homepage/index.html">Home</a></li>
+<li class="{{color_hack[1]}}"><a href="http://wuhu-ife.github.io/homepage/cv.html">CV</a></li>
+<li class="{{color_hack[2]}}"><a href="http://wuhu-ife.github.io/homepage/research.html">Research</a></li>
+<li class="{{color_hack[3]}}"><a href="http://wuhu-ife.github.io/homepage/contact.html">Contact</a></li>
