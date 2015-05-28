@@ -18,21 +18,21 @@ Sort by:
             </div>
 
 <script type="text/javascript">
-var sortby = $('[input[name=sortby]]:checked').val();
+var sortby = $('input[name=sortby]:checked').val();
 var divs = $('div[name=sortby]');
 
 if(sortby=="0"){
   divs[0].style.display='block'；
   divs[1].style.display='none';
 }else{
-  divs[0].style.display='none'；
+  divs[0].style.display='none';
   divs[1].style.display='block';
 }
 
 </script>
 
 <!--by timeline-->
-<div id="bytimeline" name="sortby" class="row typo" style="display:block;">
+<div name="sortby" class="row typo" style="display:block;">
   <div class="col-md-9" >
     {% assign posts_list = site.posts %}  
     {% include alm/timeline %}
