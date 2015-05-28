@@ -1,0 +1,21 @@
+---
+layout: research
+title: Research - Blogs
+---
+ {% include alm/setup %}
+<script language="javascript">
+$($("#blog").children()[0]).css('color', '#EC6197');
+</script>
+
+<div class="row typo">
+  <div class="col-md-9" >
+    {% assign posts_list = site.posts %}  
+    {% include alm/timeline %}
+  </div>
+  <div id="time-list-nav" class="col-md-3">
+    <ul id="time-list-ul" class="nav nav-tabs nav-stacked nav-pills time-list affix">
+      {% include alm/time_list %}
+      {% assign posts_list = nil %}
+    </ul>
+  </div>
+</div>
