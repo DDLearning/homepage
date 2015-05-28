@@ -43,7 +43,7 @@ Sort by:
 
   <div class="tab-content">
     {% for category in site.categories %} 
-    <div class="tab-pane" id="{{ category[0] }}-ref">
+    <div class="tab-pane" id="{{ category[0] }}-ref" style="display: block;">
       <ul class="posts-list">
         {% assign posts_list = category[1] %}  
         {% include alm/posts_of_category %}
