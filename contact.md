@@ -7,11 +7,11 @@ title: Contact
 $($("#contact").children()[0]).css('color', '#EC6197');
 </script>
 
-*Phone:*	+49 511 762 4891
+*Phone:*    +49 511 762 4891
 
-*Fax:*	+49 511 762 4006
+*Fax:*	    +49 511 762 4006
 
-*Mail:*	wuhu@ife.uni-hannover.de
+*Mail:*	    wuhu@ife.uni-hannover.de
 
 *Address:* 
 
