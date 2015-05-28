@@ -42,5 +42,5 @@ $($("#cv").children()[0]).css('color', '#EC6197');
 
 ---
 
-For more information consult his [CV](http://wuhu-ife.github.io/documents/CV-example.pdf) here.
+For more information consult his [CV](http://wuhu-ife.github.io/homepage/documents/CV-example.pdf){:target="_blank"} here.
 
