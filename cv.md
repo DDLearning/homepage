@@ -8,8 +8,8 @@ title: CV
 $($("#cv").children()[0]).css('color', '#EC6197');
 </script>
 
-<div name="photo" style="position:relative;float:right;">
-<img src="http://wuhu-ife.github.io/homepage/imgs/portray.jpg" height="300px" width="300px" >
+<div name="photo" style="position:relative;float:right;margin-top:-40px;">
+<img src="http://wuhu-ife.github.io/homepage/imgs/portray.jpg" height="180px" width="180px" >
 </div>
 
 **RESEARCH INTERESTS**
@@ -20,7 +20,7 @@ $($("#cv").children()[0]).css('color', '#EC6197');
 
 ---
 
-**CURRICULUM VITAE**
+**EDUCATION BACKGROUND**
 
 + since 10/2011: Doctoral candidate in ife, Leibniz University Hannover 
 + 09/2009 – 06/2011: Master degree in School of Geodesy and Geomatics, Wuhan University, China
