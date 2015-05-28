@@ -9,17 +9,30 @@ $($("#blog").children()[0]).css('color', '#EC6197');
 
 Sort by:
             <div class="btn-group" data-toggle="buttons">
-                <label class="btn btn-default">
-                    <input type="radio" id="q156" name="quality[25]" value="1" /> 1
-                </label> 
                 <label class="btn btn-default active">
-                    <input type="radio" id="q160" name="quality[25]" checked="checked" value="5" /> 5
+                    <input type="radio" id="q156" name="sortby" checked="checked" value="0" /> Timeline
+                </label> 
+                <label class="btn btn-default">
+                    <input type="radio" id="q160" name="sortby" value="1" /> Category 
                 </label>
             </div>
 
+<script type="text/javascript">
+var sortby = $('[input[name=sortby]]:checked').val();
+var divs = $('div[name=sortby]');
+
+if(sortby=="0"){
+  divs[0].style.display='block'；
+  divs[1].style.display='none';
+}else{
+  divs[0].style.display='none'；
+  divs[1].style.display='block';
+}
+
+</script>
 
 <!--by timeline-->
-<div id="bytimeline" class="row typo" style="display:block;">
+<div id="bytimeline" name="sortby" class="row typo" style="display:block;">
   <div class="col-md-9" >
     {% assign posts_list = site.posts %}  
     {% include alm/timeline %}
@@ -34,7 +47,7 @@ Sort by:
 
 
 <!--by category-->
-<div id="bycategory" class="tabbable tabs-right row" style="display:none;">
+<div id="bycategory" name="sortby" class="tabbable tabs-right row" style="display:none;">
   <ul class="nav nav-tabs" id="categories-nav">
     {% assign site_categories = site.categories %}
     {% include alm/anchor_of_categories %}
