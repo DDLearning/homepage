@@ -4,11 +4,12 @@ BASE_PATH : http://wuhu-ife.github.io/homepage
 
 pygments: true
 paginate: 10
+paginate_path: "/homepage/blog/page:num"
 
 
 archive_path: /homepage/blogs.html
 categories_path : /homepage/blogs.html
-tags_path : /homepages/blogs.html
+tags_path : /homepage/blogs.html
 
 title : Welcome to My Homepage!
 author : 
