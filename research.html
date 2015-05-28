@@ -2,6 +2,19 @@
 layout: page
 title: Research
 ---
-{% include alm/setup %}
+
+<nav class="navbar navbar-default" role="navigation">
+	<div class="row container">
+		<div class="col-md-8 col-md-offset-2">
+			<ul class="nav">
+              {% assign pages_list = site.pages %}
+              {% assign group = 'navigation' %}
+              {% include research/navigation_list %}
+            </ul>
+        </div>
+    </div>
+</nav>
+
+brief introduction to research.
 
 
