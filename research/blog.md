@@ -8,7 +8,7 @@ $($("#blog").children()[0]).css('color', '#EC6197');
 </script>
 
 <div class="row">
-<div>Sort by:</div>
+<div class="col-md-2">Sort by:</div>
 <div class="btn-group" data-toggle="buttons">
   <label class="btn btn-default active">
     <input type="radio" id="q156" name="sortby" checked="checked" value="0" /> Timeline
