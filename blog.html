@@ -17,18 +17,7 @@ Sort by:
                 </label>
             </div>
 
-<script type="text/javascript">
-var sortby = $('input[name=sortby]:checked').val();
 
-if(sortby=="0"){
-  $("#bytimeline").style.display='block';
-  $("#bycategory").style.display='none';
-}else{
-  $("#bytimeline").style.display='none';
-  $("#bycategory").style.display='block';
-}
-
-</script>
 
 <!--by timeline-->
 <div id="bytimeline" class="row typo" style="display:block;">
@@ -63,3 +52,17 @@ if(sortby=="0"){
     {% endfor %}
   </div>
 </div>
+
+<script type="text/javascript">
+var sortby = $('input[name=sortby]:checked').val();
+var divs = $('div[name=sortby]');
+
+if(sortby=="0"){
+  divs[0].style.display='block';
+  divs[1].style.display='none';
+}else{
+  divs[0].style.display='none';
+  divs[1].style.display='block';
+}
+
+</script>
