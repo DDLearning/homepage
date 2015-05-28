@@ -8,7 +8,7 @@ title: CV
 $($("#cv").children()[0]).css('color', '#EC6197');
 </script>
 
-<img src="http://wuhu-ife.github.io/homepage/imgs/portray.jpg" height=300px width=300px />
+<img src="http://wuhu-ife.github.io/homepage/imgs/portray.jpg" height="300px" width="300px" >
 
 
 **RESEARCH INTERESTS**
