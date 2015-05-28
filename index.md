@@ -6,17 +6,5 @@ title: Welcome to Hu Wu's Homepage!
 <script language="javascript">
 $($("#home").children()[0]).css('color', '#EC6197');
 </script>
-some descriptions!
 
-
-some descriptions!
-
-
-
-some descriptions!
-
----
-
-some descriptions!
-
-some descriptions!
+Hu Wu's main research interests are in the recovery of the earth gravity field with GOCE data. [[Read More]](../research.html)
