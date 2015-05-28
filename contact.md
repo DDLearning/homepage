@@ -7,20 +7,24 @@ title: Contact
 $($("#contact").children()[0]).css('color', '#EC6197');
 </script>
 
+*Phone:*	+49 511 762 4891
+
+*Fax:*	+49 511 762 4006
+
+*Mail:*	wuhu@ife.uni-hannover.de
+
 *Address:* 
 
-Institut für Erdmessung 
+    Institut für Erdmessung 
 
-Schneiderberg 50
+    Schneiderberg 50
 
-D-30167 Hannover
+    D-30167 Hannover
 
-Germany 
+    Germany 
 
-room: V418 (Gebäude 3109)
 
-*phone:*	+49 511 762 4891
-*fax:*	+49 511 762 4006
-*mail:*	wuhu@ife.uni-hannover.de
+
+
 
 
