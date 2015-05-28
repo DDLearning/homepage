@@ -54,15 +54,17 @@ Sort by:
 </div>
 
 <script type="text/javascript">
-var sortby = $('input[name=sortby]:checked').val();
+
 var divs = $('div[name=sortby]');
 
-if(sortby=="0"){
-  divs[0].style.display='block';
-  divs[1].style.display='none';
-}else{
-  divs[0].style.display='none';
-  divs[1].style.display='block';
-}
+$( "input[name='sortby']" ).change(function() {
+  if($("input[name='sortby']:checked").val()=="0"){
+    divs[0].style.display='block';
+    divs[1].style.display='none';
+  }else{
+    divs[0].style.display='none';
+    divs[1].style.display='block';
+  }
+});
 
 </script>
