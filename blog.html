@@ -20,7 +20,7 @@ Sort by:
 
 
 <!--by timeline-->
-<div id="bytimeline" class="row typo" style="display:block;">
+<div name="sortby" class="row typo" style="display:block;">
   <div class="col-md-9" >
     {% assign posts_list = site.posts %}  
     {% include alm/timeline %}
@@ -35,7 +35,7 @@ Sort by:
 
 
 <!--by category-->
-<div id="bycategory" class="tabbable tabs-right row" style="display:none;">
+<div name="sortby" class="tabbable tabs-right row" style="display:none;">
   <ul class="nav nav-tabs" id="categories-nav">
     {% assign site_categories = site.categories %}
     {% include alm/anchor_of_categories %}
