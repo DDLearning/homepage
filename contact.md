@@ -16,11 +16,8 @@ $($("#contact").children()[0]).css('color', '#EC6197');
 *Address:* 
 
     Institut für Erdmessung 
-
     Schneiderberg 50
-
     D-30167 Hannover
-
     Germany 
 
 
