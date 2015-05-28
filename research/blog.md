@@ -7,14 +7,16 @@ title: Research - Blogs
 $($("#blog").children()[0]).css('color', '#EC6197');
 </script>
 
+<div class="row">
+<div>Sort by:</div>
 <div class="btn-group" data-toggle="buttons">
-  <a>Sort by:</a>
   <label class="btn btn-default active">
     <input type="radio" id="q156" name="sortby" checked="checked" value="0" /> Timeline
   </label> 
   <label class="btn btn-default">
     <input type="radio" id="q160" name="sortby" value="1" /> Category 
   </label>
+</div>
 </div>
 
 
