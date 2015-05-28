@@ -4,8 +4,7 @@
 {% assign color_hack = color_hack | replace:{{current_nav}},'active' %}
 {% assign color_hack = color_hack | split:' ' %}
 
-<li class="{{color_hack[0]}}" id="ta"><a href="http://wuhu-ife.github.io/homepage/research
-、ta.html">Topic A</a></li>
+<li class="{{color_hack[0]}}" id="ta"><a href="http://wuhu-ife.github.io/homepage/research/ta.html">Topic A</a></li>
 <li class="{{color_hack[1]}}" id="tb"><a href="http://wuhu-ife.github.io/homepage/research/tb.html">Topic B</a></li>
 <li class="{{color_hack[2]}}" id="tc"><a href="http://wuhu-ife.github.io/homepage/research/tc.html">Topic C</a></li>
 <li class="{{color_hack[3]}}" id="blog"><a href="http://wuhu-ife.github.io/homepage/research/blog.html">Research Blog</a></li>
