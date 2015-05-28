@@ -8,14 +8,15 @@ $($("#blog").children()[0]).css('color', '#EC6197');
 </script>
 
 Sort by:
-<div id="sortby" class="btn-group" role="group" aria-label="...">
-  <button type="button" class="btn btn-default active">Timeline</button>
-  <button type="button" class="btn btn-default">Category</button>
-</div>
+            <div class="btn-group" data-toggle="buttons">
+                <label class="btn btn-default">
+                    <input type="radio" id="q156" name="quality[25]" value="1" /> 1
+                </label> 
+                <label class="btn btn-default active">
+                    <input type="radio" id="q160" name="quality[25]" checked="checked" value="5" /> 5
+                </label>
+            </div>
 
-<script type="text/javascript">
-$('.btn-group').button();
-</script>
 
 <!--by timeline-->
 <div id="bytimeline" class="row typo" style="display:block;">
