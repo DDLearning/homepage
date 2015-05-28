@@ -6,9 +6,9 @@ pygments: true
 paginate: 10
 
 
-archive_path: /space/posts.html
-categories_path : /space/categories.html
-tags_path : /space/posts.html
+archive_path: /homepage/blogs.html
+categories_path : /homepage/blogs.html
+tags_path : /homepages/blogs.html
 
 title : Welcome to My Homepage!
 author : 
