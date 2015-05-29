@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: page
 title: Welcome to Hu Wu's Homepage!
 ---
 {% include alm/setup %}
@@ -7,4 +7,8 @@ title: Welcome to Hu Wu's Homepage!
 $($("#home").children()[0]).css('color', '#EC6197');
 </script>
 
-Hu Wu's main research interests are in the recovery of the earth gravity field with GOCE data. [[Read More...]](http://wuhu-ife.github.io/homepage/research.html)
+<div name="photo" style="position:relative;float:left;margin:-10px 50px 30px 30px;" width="200px" height="200px">
+<img src="http://wuhu-ife.github.io/homepage/imgs/portray.jpg" height="200px" >
+</div>
+
+Hu Wu is currently a doctoral candidate in leibniz Univeristy of Hannover. He is dedicated to the recovery of the earth gravity filed from GOCE data. [[Read More...]](http://wuhu-ife.github.io/homepage/cv.html)
